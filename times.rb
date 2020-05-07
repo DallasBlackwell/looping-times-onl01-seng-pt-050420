@@ -1,6 +1,6 @@
 def using_times(phrase)
-  7.using_times do
+  phrase.times do
 	  puts "Wingardium Leviosa"
-	  phrase += 1
+	  phrase += 7
 	end
 end
